@@ -4,7 +4,7 @@ import {withRouter} from 'react-router-dom';
 
 
 const Car = props => {
-  console.log(props)
+  
   return (
     <div className={'Car'}
          onClick={()=> props.history.push('/cars/' + props.name.toLowerCase())}
